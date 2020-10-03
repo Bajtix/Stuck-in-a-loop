@@ -35,12 +35,25 @@
             },
             {
                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+<<<<<<< HEAD
                 "key": "editor.backFaceSelectEnabled",
+=======
+                "key": "editor.toolbarIconGUI",
+>>>>>>> aa4a924765f6908bb75dcd4896c52b60d5ef7789
                 "value": "{\"m_Value\":false}"
             },
             {
                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+<<<<<<< HEAD
                 "key": "editor.toolbarIconGUI",
+=======
+                "key": "UnityEngine.ProBuilder.ProBuilderEditor-isUtilityWindow",
+                "value": "{\"m_Value\":false}"
+            },
+            {
+                "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "editor.backFaceSelectEnabled",
+>>>>>>> aa4a924765f6908bb75dcd4896c52b60d5ef7789
                 "value": "{\"m_Value\":false}"
             },
             {
@@ -70,12 +83,20 @@
             },
             {
                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+<<<<<<< HEAD
                 "key": "editor.showEditorNotifications",
+=======
+                "key": "editor.closeWindowAfterShapeCreation",
+>>>>>>> aa4a924765f6908bb75dcd4896c52b60d5ef7789
                 "value": "{\"m_Value\":false}"
             },
             {
                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+<<<<<<< HEAD
                 "key": "UnityEngine.ProBuilder.ProBuilderEditor-isUtilityWindow",
+=======
+                "key": "editor.showEditorNotifications",
+>>>>>>> aa4a924765f6908bb75dcd4896c52b60d5ef7789
                 "value": "{\"m_Value\":false}"
             },
             {
@@ -91,7 +112,11 @@
             {
                 "type": "UnityEngine.ProBuilder.SelectMode, Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "editor.selectMode",
+<<<<<<< HEAD
                 "value": "{\"m_Value\":8}"
+=======
+                "value": "{\"m_Value\":1}"
+>>>>>>> aa4a924765f6908bb75dcd4896c52b60d5ef7789
             },
             {
                 "type": "UnityEngine.ProBuilder.PivotLocation, Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -127,11 +152,14 @@
                 "type": "UnityEngine.ProBuilder.ExtrudeMethod, Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "editor.extrudeMethod",
                 "value": "{\"m_Value\":2}"
+<<<<<<< HEAD
             },
             {
                 "type": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "ExtrudeFaces.distance",
                 "value": "{\"m_Value\":0.5}"
+=======
+>>>>>>> aa4a924765f6908bb75dcd4896c52b60d5ef7789
             }
         ]
     }
