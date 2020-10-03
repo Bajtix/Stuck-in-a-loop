@@ -229,7 +229,7 @@ MonoBehaviour:
   speed: 4
   cameraTransform: {fileID: 1310463856646695806}
   character: {fileID: 1310463856828266114}
-  playerJump: 10
+  playerJump: 5
 --- !u!143 &1310463856828266114
 CharacterController:
   m_ObjectHideFlags: 0
