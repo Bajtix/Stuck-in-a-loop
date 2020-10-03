@@ -4,14 +4,17 @@
 Preset:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: TextureImporter
+  m_PrefabInternal: {fileID: 0}
+  m_Name: AlbedoTexture_Default
   m_TargetType:
     m_NativeTypeID: 1006
     m_ManagedTypePPtr: {fileID: 0}
     m_ManagedTypeFallback: 
   m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_FileIDToRecycleName.Array.size
+    value: 0
+    objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_ExternalObjects.Array.size
     value: 0
@@ -22,7 +25,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_EnableMipMap
-    value: 0
+    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_sRGBTexture
@@ -85,10 +88,6 @@ Preset:
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: m_VTOnly
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
     propertyPath: m_GrayScaleToAlpha
     value: 0
     objectReference: {fileID: 0}
@@ -114,11 +113,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_TextureSettings.m_FilterMode
-    value: 0
+    value: -1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_TextureSettings.m_Aniso
-    value: -1
+    value: 2
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_TextureSettings.m_MipBias
@@ -126,19 +125,19 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_TextureSettings.m_WrapU
-    value: 1
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_TextureSettings.m_WrapV
-    value: 1
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_TextureSettings.m_WrapW
-    value: 1
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_NPOTScale
-    value: 0
+    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Lightmap
@@ -150,7 +149,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteMode
-    value: 1
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteExtrude
@@ -174,7 +173,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpritePixelsToUnits
-    value: 32
+    value: 100
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteBorder.x
@@ -202,7 +201,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_AlphaIsTransparency
-    value: 1
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteTessellationDetail
@@ -210,7 +209,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_TextureType
-    value: 8
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_TextureShape
@@ -219,14 +218,6 @@ Preset:
   - target: {fileID: 0}
     propertyPath: m_SingleChannelComponent
     value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_FlipbookRows
-    value: 1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_FlipbookColumns
-    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_MaxTextureSizeSet
@@ -241,16 +232,8 @@ Preset:
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: m_IgnorePngGamma
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_ApplyGammaDecoding
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.size
-    value: 4
+    value: 5
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.data[0].m_BuildTarget
@@ -258,7 +241,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.data[0].m_MaxTextureSize
-    value: 2048
+    value: 8192
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.data[0].m_ResizeAlgorithm
@@ -266,7 +249,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.data[0].m_TextureFormat
-    value: 4
+    value: -1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.data[0].m_TextureCompression
@@ -293,16 +276,12 @@ Preset:
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[0].m_ForceMaximumCompressionQuality_BC6H_BC7
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.data[1].m_BuildTarget
     value: Standalone
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.data[1].m_MaxTextureSize
-    value: 2048
+    value: 8192
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.data[1].m_ResizeAlgorithm
@@ -310,7 +289,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.data[1].m_TextureFormat
-    value: 4
+    value: -1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.data[1].m_TextureCompression
@@ -337,16 +316,12 @@ Preset:
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[1].m_ForceMaximumCompressionQuality_BC6H_BC7
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.data[2].m_BuildTarget
-    value: Android
+    value: iPhone
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.data[2].m_MaxTextureSize
-    value: 2048
+    value: 8192
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.data[2].m_ResizeAlgorithm
@@ -354,7 +329,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.data[2].m_TextureFormat
-    value: 4
+    value: -1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.data[2].m_TextureCompression
@@ -381,16 +356,12 @@ Preset:
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[2].m_ForceMaximumCompressionQuality_BC6H_BC7
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.data[3].m_BuildTarget
-    value: WebGL
+    value: Android
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.data[3].m_MaxTextureSize
-    value: 2048
+    value: 8192
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.data[3].m_ResizeAlgorithm
@@ -398,7 +369,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.data[3].m_TextureFormat
-    value: 4
+    value: -1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.data[3].m_TextureCompression
@@ -425,7 +396,43 @@ Preset:
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[3].m_ForceMaximumCompressionQuality_BC6H_BC7
+    propertyPath: m_PlatformSettings.Array.data[4].m_BuildTarget
+    value: Windows Store Apps
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PlatformSettings.Array.data[4].m_MaxTextureSize
+    value: 8192
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PlatformSettings.Array.data[4].m_ResizeAlgorithm
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PlatformSettings.Array.data[4].m_TextureFormat
+    value: -1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PlatformSettings.Array.data[4].m_TextureCompression
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PlatformSettings.Array.data[4].m_CompressionQuality
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PlatformSettings.Array.data[4].m_CrunchedCompression
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PlatformSettings.Array.data[4].m_AllowsAlphaSplitting
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PlatformSettings.Array.data[4].m_Overridden
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PlatformSettings.Array.data[4].m_AndroidETC2FallbackOverride
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
@@ -446,11 +453,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_SpriteID
-    value: 5e97eb03825dee720800000000000000
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_SpriteSheet.m_InternalID
-    value: 0
+    value: 
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Vertices.Array.size
@@ -469,10 +472,6 @@ Preset:
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: m_SpriteSheet.m_SecondaryTextures.Array.size
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
     propertyPath: m_SpritePackingTag
     value: 
     objectReference: {fileID: 0}
@@ -482,7 +481,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PSDShowRemoveMatteOption
-    value: 1
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_UserData
@@ -496,4 +495,3 @@ Preset:
     propertyPath: m_AssetBundleVariant
     value: 
     objectReference: {fileID: 0}
-  m_ExcludedProperties: []
